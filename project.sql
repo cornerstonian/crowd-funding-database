@@ -1,24 +1,24 @@
 CREATE TABLE project (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
-  title TEXT
-  category TEXT
-  funding_goal
-  start_date TEXT
+  title TEXT,
+  category TEXT,
+  funding_goal TEXT,
+  start_date TEXT,
   end_date TEXT
 );
 
 CREATE TABLE users (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
-  name TEXT
+  name TEXT,
   age INT
 );
 
 
 CREATE TABLE pledges (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
-  amount NUMERIC
-  user_id INT
-  project_id INT
+  amount NUMERIC,
+  user_id INT,
+  project_id INT,
 );
 
 

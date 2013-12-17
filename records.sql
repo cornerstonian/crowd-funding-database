@@ -15,9 +15,9 @@ VALUES ('Ruby For Everyone Else', 'Publishing', '$12,000', '7/25/13', '11/25/13'
 INSERT INTO users (name,age)
 VALUES ('CaptainOG', 34)
 ('Dr.Suess', 51),('RubyMonger' 31), ('Smurf', 27), ('PawzOnEm', 40), ('RapGod', 25), ('SuperTroll', 29), ('Dagnabit', 59), ('TerminalAnswer', 33), ('Violator', 22), ('AllWinsNoLoss', 30), ('QuoteTheRaven', 24), ('KickmeSpears', 22), ('MileyVirus', 30), ('WestCoasta', 41)
-('Aslan', 18),('CookieStomper' 24), ('VillageIdiot', 27), ('YoungVois', 34), ('MaxHeadRoom', 35),  
+('Aslan', 18),('CookieStomper' 24), ('VillageIdiot', 27), ('YoungVois', 34), ('MaxHeadRoom', 35)  
 
-INSERT INTO pledges (title, category, user_id, project_id)
+INSERT INTO pledges (amount, user_id, project_id)
 VALUES (75.00, 7, 8),
 (75.00, 20, 9),
 (75.00, 12, 1),
